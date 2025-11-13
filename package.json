@@ -1,0 +1,40 @@
+{
+  "name": "node-json-error",
+  "version": "0.1.0",
+  "description": "Serialize/deserialize NestedError/Error objects to safe JSON payloads with optional sanitization.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "json",
+    "error",
+    "serialization",
+    "nested-error-stacks",
+    "node"
+  ],
+  "author": "Nicola Carpanese <nicola.carpanese@digitec.it>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n-car/node-json-error.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n-car/node-json-error/issues"
+  },
+  "homepage": "https://github.com/n-car/node-json-error#readme",
+  "peerDependencies": {
+    "nested-error-stacks": "^2.1.1"
+  },
+  "devDependencies": {
+    "nested-error-stacks": "^2.1.1"
+  }
+}
